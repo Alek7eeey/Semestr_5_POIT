@@ -11,17 +11,29 @@ echo Первый параметр: %a%
 echo Второй параметр: %b%
 echo Третий параметр: %c%
 
-if %c% == %+%(
-echo +
+if %c% == + (
+set /a sum = %a% + %b%
+echo result = %sum%
 )
 
-set str1=Hello
-set str2=World
+if %c% == - (
+set /a dif = %a% - %b%
+echo result = %dif%
+)
 
-if "%str1%"=="%str2%" (
-    echo Строки равны
-) else (
-    echo Строки не равны
+if %c% == * (
+set /a mul = %a% * %b%
+echo result = %mul%
+)
+
+if %c% == / (
+set /a div = %a% / %b%
+echo result = %div%
+)
+
+if %c% == %% (
+set /a ost = %a% %% %b%
+echo result = %ost%
 )
 
 pause
