@@ -1,14 +1,28 @@
-const http = require('http');
+var http = require('http');
 
-const hostname = '127.0.0.1';
-const port = 3000;
+let h = (r)=>{
+    let rc='';
+    for(key in r.headers) rc += '<h3>' + key + ':'+ r.headers[key]+'</h3>';
+    return rc;
+}
 
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello');
-});
+http.createServer(function (req, res){
+    let b = '';
+    req.on('data', str=>{b+=str; console.log('data', b);})
+    res.writeHead(200, {'Content-Type' : 'text/html; charset=utf-8'});
+    req.on('end', ()=>res.end(
+        '<!DOCTYPE html> <html><head></head>' +
+        '<body>' +
+        '<h1>Структура запроса: </h1>' +
+        '<h2>'+'метод: '+ req.method + '</h2>' +
+        '<h2>'+'uri: '+req.url+'</h2>' +
+        '<h2>'+'version: '+req.httpVersion+'</h2>' +
+        '<h2>'+'Header: '+'</h2>' +
+        h(req)+
+        '<h2>'+'body:' +b+'</h2>' +
+        '</body>'+
+        '</html>'
+    ))
+}).listen(3000);
 
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
-});
+console.log('Server running at http://localhost:3000/')
