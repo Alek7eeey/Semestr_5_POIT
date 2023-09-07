@@ -16,8 +16,7 @@ if "%title%"=="" (
 	echo имя этого файла: %0%
 	echo режим = {создать/ удалить}
 	echo файл = имя файла
-	set /a count += 1
-)
+) 
 
 if "%file%"=="" (
 	goto ab
@@ -34,7 +33,7 @@ if "%title%"=="удалить" (
 				goto ba
 		)
 	
-	set /a count += 1
+	set /a count = 1
 )
 
 if "%title%"=="создать" (
@@ -48,17 +47,20 @@ if "%title%"=="создать" (
 			goto ba
 		)
 	
-	set /a count += 1
+	set /a count = 1
 )
 
-if "%count%" equ 0 (
-	echo режим задан не корректно!
+if not %count% equ 1 (
+	echo не верная  команда((
 )
 
+goto :ba
 :ab
+
 if not "%title%"=="" (
 echo не указано название файла для создания/удаления!
-) 
+)
+
 :ba
 
 pause
