@@ -1,29 +1,47 @@
-## Welcome to MarkdownPad 2 ##
+# Lab_3 (16.09.2023)
+## Test-cases (интернет-магазин [Ozon.by](https://ozon.by/))
 
-**MarkdownPad** is a full-featured Markdown editor for Windows.
+<strong>KAD_1_lb3</strong>. Добавление товара в избранное.<br>
+<strong>Краткое описание:</strong> проверка корректности
+добавления товаров в панель "Избранные товары"<br>
+<strong>Предусловие (входные данные):</strong> для того, чтобы у пользователя были сохранены
+все товары в избаранном, он должен быть
+зарегистрирован и авторизован в личном кабинете.<br>
+<strong>Шаги:</strong><br>
+1. Зайти на сайт [Ozon.by](https://ozon.by/)
+2. Посредствам поиска и/или панели "рекомендуем" найти необходимые товары 
+3. Выбрать необходимый товар
+3. Открыть товар (или не открывать)
+4. Нажать на символ "сердечко"<br>
 
-### Built exclusively for Markdown ###
+<strong>Ожидаемый результат:</strong> товар добавился в панель "Избранное",
+в верхней навигационной панели появился символ "+1"
+возле соответствующего пункта меню. При переходе в него, там находится выбранный 
+нами товар:<br>
+<img src="D:\studing\5_semestr\software_testing\labs\lab_3\Screenshot_2.png"/><br>
+<strong>Фактические результаты: </strong> как ожидали<br>
+<strong>Статус: </strong> пройден успешно<br>
+<hr>
 
-Enjoy first-class Markdown support with easy access to  Markdown syntax and convenient keyboard shortcuts.
 
-Give them a try:
+<strong>KAD_2_lb3</strong>. Регистрация.<br>
+<strong>Краткое описание:</strong> проверка корректности
+регистрации на сайте<br>
+<strong>Предусловие (входные данные):</strong> Для выполнения этого теста
+мы предварительно зайдём в панель регистрации нового пользователя.
+Будем использовать следующие входные данные:<br>
+<i>Номер телефона: +37544563***9</i><br>
+<strong>Шаги:</strong><br>
+1. Ввести свой номер телефона
+2. Дождаться звонка
+3. Ввести в качестве подтверждения 6 последних цифр телефона,
+с которого был совершен вызов
+3. Поставить галочку рядом с согласием "условий использования сервисов Ozon..."
+4. Нажать кнопку "Зарегистрироваться"
 
-- **Bold** (`Ctrl+B`) and *Italic* (`Ctrl+I`)
-- Quotes (`Ctrl+Q`)
-- Code blocks (`Ctrl+K`)
-- Headings 1, 2, 3 (`Ctrl+1`, `Ctrl+2`, `Ctrl+3`)
-- Lists (`Ctrl+U` and `Ctrl+Shift+O`)
-
-### See your changes instantly with LivePreview ###
-
-Don't guess if your [hyperlink syntax](http://markdownpad.com) is correct; LivePreview will show you exactly what your document looks like every time you press a key.
-
-### Make it your own ###
-
-Fonts, color schemes, layouts and stylesheets are all 100% customizable so you can turn MarkdownPad into your perfect editor.
-
-### A robust editor for advanced Markdown users ###
-
-MarkdownPad supports multiple Markdown processing engines, including standard Markdown, Markdown Extra (with Table support) and GitHub Flavored Markdown.
-
-With a tabbed document interface, PDF export, a built-in image uploader, session management, spell check, auto-save, syntax highlighting and a built-in CSS management interface, there's no limit to what you can do with MarkdownPad.
+<strong>Ожидаемый результат:</strong> Пользователь успешно прошел регистрацию<br>
+<strong>Фактические результаты: </strong> Надпись "Что-то пошло не так", но после 
+refresh web-страницы, вход в аккаунт, а, соответственно, и регистрация были выполнены
+успешно!<br>
+![](D:\studing\5_semestr\software_testing\labs\lab_3\Screenshot_4.png)
+<strong>Статус: </strong> тест не пройден<br>
