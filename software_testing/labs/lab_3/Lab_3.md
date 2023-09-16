@@ -18,7 +18,7 @@
 в верхней навигационной панели появился символ "+1"
 возле соответствующего пункта меню. При переходе в него, там находится выбранный 
 нами товар:<br>
-<img height="140" width="270" title="img with result"  src="D:\studing\5_semestr\software_testing\labs\lab_3\Screenshot_2.png"/><br>
+<img height="140" width="270" title="img with result"  src="\Screenshot_2.png"/><br>
 <strong>Фактические результаты: </strong> как ожидали<br>
 <strong>Статус: </strong> пройден успешно<br>
 <hr>
@@ -43,5 +43,5 @@
 <strong>Фактические результаты: </strong> Надпись "Что-то пошло не так", но после 
 refresh web-страницы, вход в аккаунт, а, соответственно, и регистрация были выполнены
 успешно!<br>
-<img height="150" title="img with result" src="D:\studing\5_semestr\software_testing\labs\lab_3\Screenshot_4.png" width="300"/><br>
+<img height="150" title="img with result" src="Screenshot_4.png" width="300"/><br>
 <strong>Статус: </strong> тест пройден частично<br>
