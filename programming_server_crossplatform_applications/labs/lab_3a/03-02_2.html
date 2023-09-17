@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Results</title>
+</head>
+<body>
+<h1>Factorial Results</h1>
+<div id="results"></div>
+<script>
+    function displayResult(result, index) {
+        var div = document.createElement('div');
+        div.textContent = index + ". Результат: " + result;
+        document.getElementById('results').appendChild(div);
+    }
+
+    async function fetchResults() {
+        var start = new Date().getTime();
+        for (var x = 0; x <= 20; x++) {
+            var response = await fetch('http://localhost:5000/fact?k=' + x);
+            var data = await response.json();
+            var fact = data.fact;
+            var timeElapsed = new Date().getTime() - start;
+            var resultText = timeElapsed + "-" + x + "/" + fact;
+            displayResult(resultText, x);
+        }
+    }
+
+    fetchResults();
+</script>
+</body>
+</html>
