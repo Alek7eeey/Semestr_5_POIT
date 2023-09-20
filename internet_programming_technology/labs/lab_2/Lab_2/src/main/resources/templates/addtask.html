@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <title>Add Task</title>
+  <link rel="stylesheet" type="text/css" th:href="@{/static/css/style.css}"/>
+</head>
+<body>
+
+<div class="container">
+  <h1>New Task:</h1>
+  <form th:action="@{/addtask}"
+        th:object="${taskForm}" method="POST">
+    <p>Name of task:
+      <input type="text" th:field="*{nameOfTask}" />
+    </p>
+    <p> Author:
+      <input type="text" th:field="*{authorOfTask}" />
+    </p>
+    <p> Comments:
+      <input type="text" th:field="*{commentsForTask}" />
+    </p>
+    <input class ="button-main-page" type="submit" value="Add" />
+  </form>
+</div>
+<h1 th:utext="${error}">..!..</h1>
+</body>

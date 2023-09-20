@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit task</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/css/style.css}"/>
+  <script>
+    const onClick = target => {
+      var rowData = [];
+      const tds = target.querySelectorAll('td')
+
+    let query = "";
+      for (let td of tds) {
+        rowData.push(td.innerText);
+        if(query !== "") query += '&'
+        query += `${td.className}=${td.innerText}`
+      }
+      window.location.href = "/updateTask?" + query;
+    }
+  </script>
+</head>
+<body>
+<div class="container">
+  <table class ="container" border="1" id="myTable">
+    <tr>
+      <th><h1>Task</h1></th>
+      <th><h1>Author</h1></th>
+      <th><h1>Comments</h1></th>
+    </tr>
+
+    <tr th:each ="task : ${tasks}" onclick="onClick(this)">
+      <td class="name" th:utext="${task.getNameOfTask()}">...</td>
+      <td class="author" th:utext="${task.getAuthorOfTask()}">...</td>
+      <td class="comments" th:utext="${task.getCommentsForTask()}">...</td>
+    </tr>
+  </table>
+</div>
+
+
+</body>
+</html>

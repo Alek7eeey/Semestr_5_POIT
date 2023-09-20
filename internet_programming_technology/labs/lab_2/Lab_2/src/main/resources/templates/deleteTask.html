@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remove task</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/css/style.css}"/>
+</head>
+<body>
+<div class="container">
+
+  <h1>Delete:</h1>
+  <form th:action="@{/deleteTask}"
+        th:object="${taskForm}" method="POST">
+    <p>Name of task:
+      <input type="text" th:field="*{nameOfTask}" />
+    </p>
+    <input class ="button-main-page" type="submit" value="Delete" />
+  </form>
+</div>
+
+<div th:utext="${error}"
+     style="color:red;font-style:italic;">
+</div>
+</body>
+</html>

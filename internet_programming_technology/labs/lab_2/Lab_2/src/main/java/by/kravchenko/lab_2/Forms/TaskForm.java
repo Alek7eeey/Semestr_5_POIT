@@ -7,7 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class BookForm {
-    private String title;
-    private String author;
+public class TaskForm {
+    private String nameOfTask;
+    private String authorOfTask;
+    private String commentsForTask;
 }
