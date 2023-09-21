@@ -1,0 +1,3 @@
+FOR REMOVING ABLESPACE:
+First in script: DROP TABLESPACE TS_KAD;
+then in path: C:\WINDOWS.X64_193000_DB_HOME\DATABASE\... also delete file!
