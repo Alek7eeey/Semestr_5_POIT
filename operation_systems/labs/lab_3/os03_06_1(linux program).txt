@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    printf("Дочерний процесс\n");
+        printf("PID child: %d\n", getpid());
+    sleep(20);
+    return 0;
+}

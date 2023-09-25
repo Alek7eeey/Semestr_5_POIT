@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <sys/prctl.h>
+
+int main(){
+    pid_t child_pid;
+    printf("PID parent: %d\n", getpid());
+     child_pid = system("./OS03_06_1");
+        
+    if(child_pid == -1) {
+        printf("Ошибка при создании дочернего процесса\n");
+        exit(1);
+    }
+
+    for(int i =0; i<100; i++){
+         printf("ID процесса: %d\n i = %d\n\n", getpid(), i);
+         sleep(1);
+    }
+
+        
+    sleep(1); // задержка в 1 секунду
+    
+    return 0;
+}
