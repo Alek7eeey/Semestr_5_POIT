@@ -19,7 +19,7 @@ const thirdJob = async (data) =>{
 };
 
 
-thirdJob(13)
+thirdJob("sdds")
     .then((res)=>{
         console.log("Success: " + res);
     })
