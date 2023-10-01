@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <pthread.h>
+
+void* OS04_07_T1() {
+    for (int i = 0; i < 75; i++) {
+        printf("ThreadT1 ID: %d\n", getpid());
+        sleep(1);
+    }
+    pthread_exit(NULL);
+}
+
+int main() {
+    printf("Process ID: %d\n", getpid());
+
+    pthread_t thread;
+    int rc = pthread_create(&thread, NULL, OS04_07_T1, NULL);
+    if (rc) {
+        perror("pthread_create");
+        exit(1);
+    }
+
+    for (int i = 0; i < 100; i++) {
+        printf("Main Process ID: %d\n", getpid());
+        sleep(1);
+    }
+
+    pthread_join(thread, NULL);
+
+    return 0;
+}
