@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80afe0d6-dbfe-4442-8701-f95b77bc27c5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../database/labs/lab_2/lab_2_questions.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../database/labs/lab_2/lab_2_questions.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/Debug/OS03_01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/Debug/OS03_01.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/Debug/OS03_01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/Debug/OS03_01.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/OS03_01.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/OS03_01.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/OS03_01.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/OS03_01.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/main.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/vc143.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2W0tBLmb8Wqoh0P700TZxb59fuC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/studing/5_semestr/internet_programming_technology/labs/lab_2/Lab_2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80afe0d6-dbfe-4442-8701-f95b77bc27c5" name="Changes" comment="" />
+      <created>1695881188613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695881188613</updated>
+      <workItem from="1695881189935" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
