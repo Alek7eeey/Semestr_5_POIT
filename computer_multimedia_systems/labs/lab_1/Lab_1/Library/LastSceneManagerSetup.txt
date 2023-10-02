@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Control sphere.unity
+- path: Assets/Scenes/TwoCube.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
