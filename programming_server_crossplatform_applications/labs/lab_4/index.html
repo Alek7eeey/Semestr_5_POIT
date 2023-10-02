@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab</title>
+</head>
+<body>
+<h1>Server App</h1>
+
+<h2>Add New Record (Post)</h2>
+<label for="name">Name:</label>
+<input type="text" id="name"><br>
+<label for="bday">Birthday:</label>
+<input type="text" id="bday"><br>
+<button onclick="postData()">Add Record</button>
+
+<h2>Update Record (Put)</h2>
+<label for="idUpdate">ID:</label>
+<input type="text" id="idUpdate"><br>
+<label for="nameUpdate">Name:</label>
+<input type="text" id="nameUpdate"><br>
+<label for="bdayUpdate">Birthday:</label>
+<input type="text" id="bdayUpdate"><br>
+<button onclick="putData()">Update Record</button>
+
+<h2>Delete Record(Delete)</h2>
+<label for="idDelete">ID:</label>
+<input type="text" id="idDelete"><br>
+<button onclick="deleteData()">Delete Record</button>
+
+<h2>Show Records(Get)</h2>
+<button onclick="getData()">Show Records</button>
+
+<div id="result"></div>
+</body>
+</html>
+
+<script>
+
+    const deleteData = ()=>{
+        fetch('http://localhost:5000/api/db', {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: document.getElementById("idDelete").value
+        })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("result").innerHTML = JSON.stringify(data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    }
+    const getData =()=>{
+        fetch('http://localhost:5000/api/db', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("result").innerHTML = JSON.stringify(data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    }
+    const postData = ()=>{
+        const name = document.getElementById("name").value;
+        const bday = document.getElementById("bday").value;
+        const data = { name, bday };
+        fetch('http://localhost:5000/api/db', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("result").innerHTML = JSON.stringify(data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    }
+
+    const putData = ()=>{
+        const id = Number.parseInt(document.getElementById("idUpdate").value);
+        const name = document.getElementById("nameUpdate").value;
+        const bday = document.getElementById("bdayUpdate").value;
+
+        const data = {id:id, name:name, bday:bday};
+
+        fetch('http://localhost:5000/api/db', {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("result").innerHTML = JSON.stringify(data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    }
+</script>
