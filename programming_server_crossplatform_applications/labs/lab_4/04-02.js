@@ -103,4 +103,4 @@ createServer(async function (req, res) {
     }
 }).listen(5000);
 
-console.log('http://localhost:5000/api/db');
+console.log('http://localhost:5000/');

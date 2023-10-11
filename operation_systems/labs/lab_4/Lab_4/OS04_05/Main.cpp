@@ -48,7 +48,7 @@ int main() {
         std::cout << "ProcessParent ID: " << processId << std::endl;
 
         // ѕриостановка работы потока OS04_03_T2 на 40-й итерации
-        if (i == 40) {
+        if (i == 4) {
             TerminateThread(thread2.native_handle(), 1);
         }
 

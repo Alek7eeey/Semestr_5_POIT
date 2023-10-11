@@ -61,9 +61,14 @@
     <Compile Include="Assets\ex_5_trigger.cs" />
     <Compile Include="Assets\ex_5.cs" />
     <Compile Include="Assets\ex_1.cs" />
+    <Compile Include="Assets\ex_6_game\redCubeMotion.cs" />
+    <Compile Include="Assets\ex_6_game\generateCubes.cs" />
     <Compile Include="Assets\ex_2_AddForce.cs" />
+    <Compile Include="Assets\ex_6_game\DestroyRedCubes.cs" />
     <Compile Include="Assets\ex_3.cs" />
+    <Compile Include="Assets\ex_6_game\controllerCapsule.cs" />
     <Compile Include="Assets\ex_2_rotate.cs" />
+    <Compile Include="Assets\ex_6_game\gameLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

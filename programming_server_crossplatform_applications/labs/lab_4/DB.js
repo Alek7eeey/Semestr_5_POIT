@@ -39,9 +39,9 @@ export class BD{
     }
 }
 export let database = [
-    new user(1, "Artem", "11-09-2004"),
-    new user(2, "Dmitry", "03-03-2003"),
-    new user(3, "Aleksey", "01-12-1998"),
-    new user(4, "Daria", "11-01-2007"),
-    new user(5, "Alex", "11-01-1955")
+    new user(1, "Artem", "2004-11-09"),
+    new user(2, "Dmitry", "2003-03-03"),
+    new user(3, "Aleksey", "1998-12-11"),
+    new user(4, "Daria", "2007-11-01"),
+    new user(5, "Alex", "1955-03-08")
 ];

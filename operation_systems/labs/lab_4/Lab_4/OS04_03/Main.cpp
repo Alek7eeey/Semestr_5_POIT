@@ -48,17 +48,17 @@ int main() {
         std::cout << "ProcessParent ID: " << processId << std::endl;
 
         // ѕриостановка работы потока OS04_03_T1 на 20-й итерации
-        if (i == 20) {
+        if (i == 2) {
             SuspendThread(thread1.native_handle()); //return descriptor of socket and then this thread will stop
         }
 
         // ѕриостановка работы потока OS04_03_T2 на 40-й итерации
-        if (i == 40) {
+        if (i == 4) {
             SuspendThread(thread2.native_handle());
         }
 
         // ¬озобновление работы потока OS04_03_T1 на 60-й итерации
-        if (i == 60) {
+        if (i == 6) {
             ResumeThread(thread1.native_handle());
         }
 

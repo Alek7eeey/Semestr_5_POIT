@@ -15,7 +15,6 @@ public class ex_5_trigger : MonoBehaviour
 
 			// Увеличить размер вдвое
 			objTransform.localScale *= 1.5f;
-		
 	}
 
 	void OnTriggerExit(Collider other)

@@ -21,7 +21,7 @@ void OS04_04_T1()
         // Задержка на 1 секунду
         std::this_thread::sleep_for(std::chrono::seconds(1));
 
-        if (i == 25) {
+        if (i == 3) {
             std::this_thread::sleep_for(std::chrono::seconds(10));
         }
 	}
@@ -43,7 +43,7 @@ void OS04_04_T2()
         // Задержка на 1 секунду
         std::this_thread::sleep_for(std::chrono::seconds(1));
 
-        if (i == 80) {
+        if (i == 5) {
             std::this_thread::sleep_for(std::chrono::seconds(15));
         }
     }
@@ -64,7 +64,7 @@ void main()
         std::cout << "ThreadParent ID: " << threadId << std::endl;
         std::this_thread::sleep_for(std::chrono::seconds(1));
 
-        if (i == 30) {
+        if (i == 3) {
             std::this_thread::sleep_for(std::chrono::seconds(10));
         }
     }

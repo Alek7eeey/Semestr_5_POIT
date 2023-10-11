@@ -11,17 +11,20 @@
 <label for="name">Name:</label>
 <input type="text" id="name"><br>
 <label for="bday">Birthday:</label>
-<input type="text" id="bday"><br>
+<input type="date" id="bday" ><br>
 <button onclick="postData()">Add Record</button>
 
 <h2>Update Record (Put)</h2>
 <label for="idUpdate">ID:</label>
 <input type="text" id="idUpdate"><br>
-<label for="nameUpdate">Name:</label>
-<input type="text" id="nameUpdate"><br>
-<label for="bdayUpdate">Birthday:</label>
-<input type="text" id="bdayUpdate"><br>
-<button onclick="putData()">Update Record</button>
+<button onclick="getInfo()">Get info</button>
+<p class="ero" style="display: none">Error</p>
+
+<label class="c" style="display: none" for="nameUpdate">Name:</label>
+<input class="c" style="display: none" type="text" id="nameUpdate"><br>
+<label class="c" style="display: none" for="bdayUpdate">Birthday:</label>
+<input class="c" style="display: none" type="date" id="bdayUpdate"><br>
+<button class="c" style="display: none" onclick="putData()">Update Record</button>
 
 <h2>Delete Record(Delete)</h2>
 <label for="idDelete">ID:</label>
@@ -37,6 +40,50 @@
 
 <script>
 
+    // Получаем текущую дату в формате YYYY-MM-DD
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); // Текущий месяц начинается с 0
+    var yyyy = today.getFullYear();
+    today = yyyy + '-' + mm + '-' + dd;
+
+    // Устанавливаем максимальную дату для элемента input
+    document.getElementById("bday").setAttribute("max", today);
+    document.getElementById("bdayUpdate").setAttribute("max", today);
+
+    const getInfo =()=>{
+        fetch('http://localhost:5000/api/db', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(response => response.json())
+            .then(data => {
+
+                const ids = Number.parseInt(document.getElementById("idUpdate").value);
+                const index = data.findIndex(a=>a.id === ids);
+                if (index !== -1) {
+                    [...document.getElementsByClassName("c")].forEach(el => {
+                        el.style.display = "block";
+                    })
+                    document.querySelector(".ero").style.display="none";
+                    document.querySelector(".ero").style.color="red";
+                    document.getElementById("nameUpdate").value = data[index].name;
+                    document.getElementById("bdayUpdate").value = data[index].dateOfBirth;
+                }
+
+                else{
+                    [...document.getElementsByClassName("c")].forEach(el => {
+                        el.style.display = "none";
+                    })
+                    document.querySelector(".ero").style.display="block";
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    }
     const deleteData = ()=>{
         fetch('http://localhost:5000/api/db', {
             method: 'DELETE',
@@ -47,9 +94,15 @@
         })
             .then(response => response.json())
             .then(data => {
-                document.getElementById("result").innerHTML = JSON.stringify(data);
+                if(data==='Row not found'){
+                    document.getElementById("result").innerHTML = "Error!";
+                }
+                else{
+                    document.getElementById("result").innerHTML = JSON.stringify(data);
+                }
             })
             .catch(error => {
+                document.getElementById("result").innerHTML = "Error!";
                 console.error('Error:', error);
             });
     }
@@ -71,21 +124,24 @@
     const postData = ()=>{
         const name = document.getElementById("name").value;
         const bday = document.getElementById("bday").value;
-        const data = { name, bday };
-        fetch('http://localhost:5000/api/db', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        })
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById("result").innerHTML = JSON.stringify(data);
+        if(name!=="" && bday !== ""){
+            const data = { name, bday };
+            fetch('http://localhost:5000/api/db', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
             })
-            .catch(error => {
-                console.error('Error:', error);
-            });
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("result").innerHTML = JSON.stringify(data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
     }
 
     const putData = ()=>{
@@ -93,22 +149,32 @@
         const name = document.getElementById("nameUpdate").value;
         const bday = document.getElementById("bdayUpdate").value;
 
-        const data = {id:id, name:name, bday:bday};
+        // Получаем текущую дату в формате YYYY-MM-DD
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); // Текущий месяц начинается с 0
+        var yyyy = today.getFullYear();
+        today = yyyy + '-' + mm + '-' + dd;
 
-        fetch('http://localhost:5000/api/db', {
-            method: 'PUT',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        })
+        if(today < Date.parse(bday))
+        {
+            const data = {id:id, name:name, bday:bday};
 
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById("result").innerHTML = JSON.stringify(data);
+            fetch('http://localhost:5000/api/db', {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
             })
-            .catch(error => {
-                console.error('Error:', error);
-            });
+
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("result").innerHTML = JSON.stringify(data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
     }
 </script>

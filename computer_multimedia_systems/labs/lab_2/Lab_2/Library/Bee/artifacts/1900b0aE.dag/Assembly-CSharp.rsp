@@ -358,6 +358,11 @@
 "Assets/ex_3.cs"
 "Assets/ex_5.cs"
 "Assets/ex_5_trigger.cs"
+"Assets/ex_6_game/controllerCapsule.cs"
+"Assets/ex_6_game/DestroyRedCubes.cs"
+"Assets/ex_6_game/gameLogic.cs"
+"Assets/ex_6_game/generateCubes.cs"
+"Assets/ex_6_game/redCubeMotion.cs"
 -langversion:9.0
 
 /deterministic

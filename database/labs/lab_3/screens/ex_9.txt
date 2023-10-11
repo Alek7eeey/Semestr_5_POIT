@@ -1,0 +1,13 @@
+sys as sysdba
+password: Qwerty12345
+CREATE USER C##KAD IDENTIFIED BY 1;
+ALTER USER C##KAD DEFAULT TABLESPACE users;
+ALTER USER C##KAD QUOTA UNLIMITED ON users;
+
+connect /as sysdba;
+GRANT CREATE SESSION TO C##KAD;
+
+CONNECT C##KAD/1
+
+*********
+connect C##KAD/1@//localhost:1521/KAD_PDB.MSHOME.NET
