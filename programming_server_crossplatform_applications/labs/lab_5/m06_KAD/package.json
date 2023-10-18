@@ -1,0 +1,14 @@
+{
+  "name": "m06_kad",
+  "version": "1.0.0",
+  "description": "Lab_5",
+  "main": "m06_KAD_local.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksey Kravchenko",
+  "license": "ISC",
+  "dependencies": {
+    "m06_kad": "^1.0.0"
+  }
+}
