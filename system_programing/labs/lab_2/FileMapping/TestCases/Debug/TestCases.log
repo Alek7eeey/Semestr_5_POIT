@@ -1,10 +1,2 @@
-﻿  main.cpp
-D:\studing\5_semestr\system_programing\labs\lab_2\FileMapping\TestCases\main.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  tests.cpp
-  Создание кода...
-D:\studing\5_semestr\system_programing\labs\lab_2\FileMapping\TestCases\tests.cpp(36): warning C4715: tests::test2: значение возвращается не при всех путях выполнения
-D:\studing\5_semestr\system_programing\labs\lab_2\FileMapping\TestCases\tests.cpp(95): warning C4715: tests::test5: значение возвращается не при всех путях выполнения
-D:\studing\5_semestr\system_programing\labs\lab_2\FileMapping\TestCases\tests.cpp(74): warning C4715: tests::test4: значение возвращается не при всех путях выполнения
-D:\studing\5_semestr\system_programing\labs\lab_2\FileMapping\TestCases\tests.cpp(19): warning C4715: tests::test1: значение возвращается не при всех путях выполнения
-D:\studing\5_semestr\system_programing\labs\lab_2\FileMapping\TestCases\tests.cpp(54): warning C4715: tests::test3: значение возвращается не при всех путях выполнения
+﻿  tests.cpp
   TestCases.vcxproj -> D:\studing\5_semestr\system_programing\labs\lab_2\FileMapping\Debug\TestCases.exe

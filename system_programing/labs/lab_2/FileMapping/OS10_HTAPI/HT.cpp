@@ -149,19 +149,21 @@ namespace HT
 	{
 		if (sizeof(element->key) > element->keyLength)
 		{
-			throw "error: so long key";
+			writeLastError(HtHandle, "error: so long key");
+			return false;
 		}
 
 		if (sizeof(element->payload) > element->payloadLength)
 		{
-			throw "error: so long payload";
+			writeLastError(HtHandle, "error: so long payload");
+			return false;
 		}
 
 		HT::Element* hte = HT::get(HtHandle, element);
 		if (hte)
 		{
-			throw "error: file is already insert";
-			return NULL;
+			writeLastError(HtHandle, "error: file is already insert");
+			return false;
 		}
 
 		if (HtHandle->count >= HtHandle->capacity)
@@ -279,8 +281,7 @@ namespace HT
 
 		if (index < 0)
 		{
-			writeLastError(htHandle, "-- element not found(GET)((((((");
-			throw "error: file not found!";
+			writeLastError(htHandle, "error: file not found");
 			return NULL;
 		}
 
@@ -360,9 +361,8 @@ namespace HT
 
 		if (index < 0)
 		{
-			writeLastError(HtHandle, "-- not found element (REMOVE)((((((((((");
+			writeLastError(HtHandle, "error: element is already remove");
 			ReleaseMutex(HtHandle->mutex);
-			throw "error: element is already remove";
 			return false;
 		}
 

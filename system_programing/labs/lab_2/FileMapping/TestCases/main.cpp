@@ -56,4 +56,10 @@ void main()
 	{
 		cout << "test 5 failed!" << endl;
 	}
+
+	if (ht != nullptr)
+		if (HT::close(ht))
+			cout << "\n-- close: success" << endl;
+		else
+			throw "-- close: error";
 }
