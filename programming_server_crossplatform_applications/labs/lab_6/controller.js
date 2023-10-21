@@ -21,7 +21,7 @@ const getReq = (req, res) =>
                 res.end(fileContent);
             } catch (err) {
                 res.writeHead(404, { 'Content-Type': 'text/plain' });
-                res.end('File Not Found');
+                res.end('Error 404: File Not Found');
             }
         }
     }
@@ -41,9 +41,6 @@ const getReq = (req, res) =>
 
             res.writeHead(200, { "Content-Type": "text/plain" });
             res.end(`Sum: ${sum}, Dif: ${diff}, Mult: ${prod}, Quot: ${quot}`);
-        } else {
-            // Выводим URI
-            res.end(req.url);
         }
     }
 
@@ -140,12 +137,12 @@ const getReq = (req, res) =>
         case '/resp-status':
         {
             const { code, mess} = query;
-            if(!code || !mess)
+            if(!code || !mess || !Number.parseInt(code))
             {
                 res.writeHead(500, { "Content-Type": "text/plain" });
                 res.end('Error: one of parameter is not undefined ');
             }
-            res.writeHead(200, { "Content-Type": "text/plain" });
+            res.writeHead(Number.parseInt(code),mess, { "Content-Type": "text/plain" });
             res.end('Status: ' + code + ' Comments: ' + mess);
             break;
         }
@@ -197,7 +194,15 @@ const getReq = (req, res) =>
         }
         default:
         {
-            res.end();
+            if(pathname.startsWith('/parameter'))
+            {
+                // Выводим URI
+                res.end(req.url);
+            }
+            else
+            {
+                res.end();
+            }
         }
     }
 }
@@ -360,7 +365,7 @@ const postReq = (req, res) =>
 
         default:
             {
-                res.end();
+                    res.end();
             }
     }
 
