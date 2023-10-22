@@ -17,17 +17,17 @@
         offline;
 
         alter tablespace KAD_QDATA online;
-
-        create user KAD identified by 123
+        ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE; --use hidden session param
+        create user C##KAD_2 identified by 123
         DEFAULT TABLESPACE KAD_QDATA quota unlimited on KAD_QDATA
         ACCOUNT UNLOCK
         PASSWORD EXPIRE;
 
         grant create session,create table, create view,
         create procedure,drop any table,drop any view,
-        drop any procedure to KAD;
+        drop any procedure to C##KAD_2;
 
-        alter user KAD quota 2m on KAD_QDATA;
+        alter user C##KAD_2 quota 2m on KAD_QDATA;
         --DROP USER KAD CASCADE;
 
         -- ->KAD user
@@ -38,12 +38,13 @@
         insert into KAD_T1 values (1, 1);
         insert into KAD_T1 values (2, 2);
         insert into KAD_T1 values (3, 3);
+        commit ;
         select * from KAD_T1;
 
 --ex3. Получите список сегментов табличного пространства  XXX_QDATA.
 -- Определите сегмент таблицы XXX_T1. Определите остальные сегменты.
     -- ->SYS
-        select * from dba_segments where tablespace_name = 'KAD_QDATA';
+        select * from user_segments where tablespace_name = 'KAD_QDATA';
         select * from dba_segments;
 
 --ex4. Удалите (DROP) таблицу XXX_T1.
@@ -54,7 +55,7 @@
         -- ->KAD user
     drop table KAD_T1;
         -- ->SYS
-    select * from dba_segments where tablespace_name = 'KAD_QDATA';
+    select * from user_segments where tablespace_name = 'KAD_QDATA';
 
         -- ->KAD user
     select * from user_recyclebin;
@@ -113,7 +114,7 @@
 
     select GROUP#, MEMBER, STATUS from v$logfile;
 
-    -- swith to 4th group
+    -- switch to 4th group
     alter system switch logfile;
     select GROUP#, STATUS from v$log;
 
@@ -129,7 +130,7 @@
 --ex14 Определите, выполняется или нет архивирование журналов
 -- повтора (архивирование должно быть отключено).
     select instance_name, archiver from v$instance;
-    select LOG_MODE from V_$DATABASE;
+    select LOG_MODE from V$DATABASE;
 
 --ex15 Определите номер последнего архива.
     select MAX(SEQUENCE#) from v$archived_log;
@@ -144,7 +145,7 @@
     -- alter database open;
 
     select instance_name, archiver from v$instance;
-    select LOG_MODE from V_$DATABASE;
+    select LOG_MODE from V$DATABASE;
 
 --ex17 EX. Принудительно создайте архивный файл.
 -- Определите его номер. Определите его местоположение и убедитесь
@@ -164,17 +165,18 @@
     -- alter database open;
 
     select instance_name, archiver from v$instance;
-    select LOG_MODE from V_$DATABASE;
+    select LOG_MODE from V$DATABASE;
 
 --ex19. Получите список управляющих файлов.
-    select * from V_$CONTROLFILE
 
+    select NAME from V$CONTROLFILE;
 --ex20. Получите и исследуйте содержимое управляющего файла.
     -- Поясните известные вам параметры в файле.
     --Show parameter control (make it in SQL PLUS)
 
 --ex21. Определите местоположение файла параметров инстанса.
 -- Убедитесь в наличии этого файла.
+--show parameter pfile
     select * from v$parameter where name = 'spfile';
 
 --ex22. Сформируйте PFILE с именем XXX_PFILE.ORA.
@@ -197,4 +199,4 @@
     --file path: oracleDB//diag//rdbms//orcl//orcl//alert//log.xml
 
 --ex26.
-    select * from V_$LOG
+    select * from V$LOG
