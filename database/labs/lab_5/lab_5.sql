@@ -53,7 +53,7 @@ drop table cachedTableLab5;
 
 --ex10. Найдите размер свободной памяти в большом пуле.
     select POOL, sum(BYTES)
-    from v$sgastat where pool = 'large pool'
+    from v$sgastat where pool = 'large pool' AND name = 'free memory'
     group by POOL;
 
     --mb
@@ -72,13 +72,14 @@ drop table cachedTableLab5;
     SELECT name, description FROM v$bgprocess;
 
 --ex13. Получите список работающих в настоящее время серверных процессов.
-    select * from v$bgprocess where paddr != '00';
+    select * from v$process where addr != '00';
 
 --ex14. Определите, сколько процессов DBWn работает в настоящий момент.
-    select count(*) from v$bgprocess where paddr!= '00' and name like 'DBW%';
+    select count(*) from v$process where addr!= '00' and pname like 'DBW%';
 
 --ex15. Определите сервисы (точки подключения экземпляра).
-    select * from v$services;
+    select * from v$active_services;
+    --select * from v$services;
 
 --ex16. Получите известные вам параметры диспетчеров.
     select * from v$dispatcher;

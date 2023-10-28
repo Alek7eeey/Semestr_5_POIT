@@ -35,12 +35,12 @@ void WINAPI loop(char* displayed_name)
 
 	for (int i = 1; i <= 90; ++i)
 	{
-		if (i == 30)
+		if (i == 20)
 			EnterCriticalSectionAssem();
 
 		printf("%d.\tPID = %d\tTID = %u\tcheck: %d\tthread: %s\n", i, pid, tid, check, displayed_name);
 
-		if (i == 60)
+		if (i == 55)
 			LeaveCriticalSectionAssem();
 
 		Sleep(100);

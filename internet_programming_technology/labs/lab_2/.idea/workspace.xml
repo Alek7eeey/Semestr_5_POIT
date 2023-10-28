@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80afe0d6-dbfe-4442-8701-f95b77bc27c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../database/labs/lab_2/lab_2_questions.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../database/labs/lab_2/lab_2_questions.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/Debug/OS03_01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/Debug/OS03_01.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/Debug/OS03_01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/Debug/OS03_01.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/OS03_01.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/OS03_01.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/OS03_01.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/OS03_01.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/main.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_3/OS03/OS03_01/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/Lab-3 Vector3_Raycast.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/TundraBuildState.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/TundraBuildState.state.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/backend1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/backend1.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/fullprofile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/tundra.digestcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/tundra.log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/LastSceneManagerSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/StateCache/SceneView/5c/5cd355113e4e70b266ed2c45fc5720fd.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/StateCache/SceneView/5c/5cd355113e4e70b266ed2c45fc5720fd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/ilpp.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software_testing/labs/lab_6/lab6_collections/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/studing/5_semestr/internet_programming_technology/labs/lab_2/Lab_2",
+    "last_opened_file_path": "D:/studing/5_semestr/internet_programming_technology/labs/lab_2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -42,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695881188613</updated>
       <workItem from="1695881189935" duration="28000" />
+      <workItem from="1698139540536" duration="144000" />
     </task>
     <servers />
   </component>

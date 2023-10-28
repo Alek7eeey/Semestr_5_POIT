@@ -31,8 +31,6 @@ const server = http.createServer((req, res) => {
     }
 }).listen(3000);
 
-    console.log(`Сервер запущен по адресу http://localhost:3000`);
-
 
 
 
