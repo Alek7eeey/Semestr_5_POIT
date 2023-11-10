@@ -38,7 +38,8 @@ req.end();
 
 //our server
 const server = http.createServer((req, res) => {
-    if (req.url.startsWith('/ex3') && req.method === 'POST') {
+    if (req.url.startsWith('/ex3') && req.method === 'POST')
+    {
 
         let body = '';
         req.on('data', chunk => {
@@ -50,7 +51,9 @@ const server = http.createServer((req, res) => {
             res.writeHead(200, { 'Content-Type': 'text/plain' });
             res.end(`Пример ответа сервера. Параметры: ${requestData.x}, ${requestData.y}, ${requestData.s}`);
         });
-    } else {
+    }
+    else
+    {
         res.writeHead(404, { 'Content-Type': 'text/plain' });
         res.end('Страница не найдена');
     }
