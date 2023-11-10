@@ -91,7 +91,7 @@ drop table cachedTableLab5;
     select * from v$services;
     --services.msc->%listener%
 
---ex18. Продемонстрируйте и поясните содержимое файла LISTENER.ORA.
+--ex18. Продемонстрируйте и поясните содержимофайла LISTENER.ORA.
     --path: WINDOWS.x64...(this is db_home)/network/admin/listener.ora
     --Screen: Screen_1.png
 
