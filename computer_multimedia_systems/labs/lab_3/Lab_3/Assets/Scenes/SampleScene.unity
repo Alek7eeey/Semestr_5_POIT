@@ -133,11 +133,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4255303637462427186, guid: 996633beb55ed2d4aa0e90c94c132f9f, type: 3}
       propertyPath: maxSpeed
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -4255303637462427186, guid: 996633beb55ed2d4aa0e90c94c132f9f, type: 3}
       propertyPath: minSpeed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -4255303637462427186, guid: 996633beb55ed2d4aa0e90c94c132f9f, type: 3}
       propertyPath: m_Enabled
