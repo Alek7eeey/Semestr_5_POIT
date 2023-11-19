@@ -92,7 +92,7 @@ DROP SEQUENCE S4;
 -- 7. Получите список всех последовательностей в словаре базы данных,
 -- владельцем которых является пользователь XXX.
 
-SELECT SEQUENCE_NAME FROM ALL_SEQUENCES WHERE SEQUENCE_OWNER = 'C##KAD';
+SELECT SEQUENCE_NAME FROM USER_SEQUENCES;
 
 -- 8. Создайте таблицу T1, имеющую столбцы N1, N2, N3, N4, типа NUMBER (20),
 -- кэшируемую и расположенную в буферном пуле KEEP. С помощью оператора INSERT
@@ -168,7 +168,7 @@ SELECT CLUSTER_NAME FROM USER_CLUSTERS;
 CREATE SYNONYM SC FOR C##KAD.C;
 SELECT * FROM SC;
 
-DROP PUBLIC SYNONYM SC;
+DROP SYNONYM SC;
 -- 15.	Создайте публичный синоним для таблицы
 -- XXX.B и продемонстрируйте его применение.
 CREATE PUBLIC SYNONYM SB FOR C##KAD.B;
@@ -219,7 +219,7 @@ DROP VIEW V1;
 CREATE MATERIALIZED VIEW MV
   REFRESH COMPLETE ON DEMAND
     START WITH SYSDATE
-    NEXT SYSDATE + NUMTODSINTERVAL(2, 'MINUTE')
+    NEXT SYSDATE + NUMTODSINTERVAL(1, 'MINUTE')
   AS
     SELECT
       *
@@ -230,6 +230,15 @@ CREATE MATERIALIZED VIEW MV
           ON A16.XA = B16.XB;
 
 DROP MATERIALIZED VIEW MV;
+
+SELECT * FROM MV;
+
+INSERT INTO A16 VALUES (1, 'Aleksey', 2);
+INSERT INTO B16 VALUES (1, 'Roman', 2);
+
+INSERT INTO A16 VALUES (2, 'Artem', 3);
+INSERT INTO B16 VALUES (2, 'Dmitry', 3);
+commit;
 
 SELECT * FROM MV;
 
