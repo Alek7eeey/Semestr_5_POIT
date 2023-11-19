@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab_08</title>
+</head>
+<body>
+    <h1>08-01</h1>
+    <button onclick="start()">startWS</button>
+</body>
+</html>
+
+<script>
+    let k = 0;
+    let socket;
+
+    const start = () => {
+        socket = new WebSocket('ws://localhost:4000/wsserver');
+
+        socket.onopen = () => {
+            console.log('socket.onopen');
+
+            const intervalId = setInterval(() => {
+                // Проверка статуса соединения перед отправкой данных
+                if (socket.readyState === WebSocket.OPEN) {
+                    socket.send(++k);
+                } else {
+                    console.log('Connection closed. Stopping interval.');
+                    clearInterval(intervalId);
+                }
+            }, 3000);
+
+            // Установить таймер для закрытия соединения через 25 секунд
+            setTimeout(() => {
+                socket.close();
+                console.log('Connection closed after 25 seconds');
+            }, 25000);
+        };
+
+        socket.onclose = (e) => {
+            console.log('socket.onclose', e);
+        };
+
+        socket.onmessage = (e) => {
+            console.log('socket.onmessage', e.data);
+        };
+
+        socket.onerror = function (error) {
+            console.error('socket.onerror', error);
+            alert('Error: ' + error.message);
+        };
+    }
+</script>
