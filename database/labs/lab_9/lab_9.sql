@@ -21,7 +21,6 @@ INSERT INTO AUDITORIUM (AUDITORIUM, AUDITORIUM_NAME, AUDITORIUM_CAPACITY, AUDITO
 VALUES ('A103', 'Аудитория 103', 100, 'Auditorium');
 INSERT INTO AUDITORIUM (AUDITORIUM, AUDITORIUM_NAME, AUDITORIUM_CAPACITY, AUDITORIUM_TYPE)
 VALUES ('A104', 'Аудитория 104', 100, 'Auditorium');
-
 -- ...
 
 -- Заполняем таблицу FACULTY
@@ -35,7 +34,7 @@ INSERT INTO FACULTY (FACULTY, FACULTY_NAME)
 VALUES ('F004', 'Факультет экономики');
 INSERT INTO FACULTY (FACULTY, FACULTY_NAME)
 VALUES ('F005', 'Факультет медицины');
-
+select * from FACULTY;
 
 
 -- Заполняем таблицу PULPIT
@@ -80,11 +79,11 @@ end;
 select * from AUDITORIUM;
 
 -- 1. Разработайте АБ, демонстрирующий работу оператора SELECT с точной выборкой.
-select * from AUDITORIUM
+    select * from AUDITORIUM
     where AUDITORIUM.AUDITORIUM like 'A2%';
 
 -- 2. Разработайте АБ, демонстрирующий работу оператора SELECT с неточной точной выборкой.
--- Используйте конструкцию WHEN OTHERS секции исключений и встроенную функции SQLERRM, SQLCODE
+-- Используйте констру\кцию WHEN OTHERS секции исключений и встроенную функции SQLERRM, SQLCODE
 -- для диагностирования неточной выборки.
 
 DECLARE
@@ -188,7 +187,8 @@ EXCEPTION
 
 end;
 
--- 7. Разработайте АБ, демонстрирующий применение оператора INSERT совместно с операторами COMMIT/ROLLBACK.
+-- 7. Разработайте АБ, демонстрирующий применение оператора INSERT
+-- совместно с операторами COMMIT/ROLLBACK.
 
 DECLARE
   v_AUDITORIUM          AUDITORIUM.AUDITORIUM%TYPE;
@@ -235,7 +235,8 @@ EXCEPTION
     ROLLBACK;
 end;
 
--- 9. Разработайте АБ, демонстрирующий применение оператора DELETE совместно с операторами COMMIT/ROLLBACK.
+-- 9. Разработайте АБ, демонстрирующий применение оператора DELETE
+-- совместно с операторами COMMIT/ROLLBACK.
 DECLARE
   v_AUDITORIUM          AUDITORIUM.AUDITORIUM%TYPE;
   v_AUDITORIUM_NAME     AUDITORIUM.AUDITORIUM_NAME%TYPE;
@@ -284,7 +285,8 @@ end;
 select *
 from AUDITORIUM;
 
--- 11. Создайте анонимный блок, распечатывающий таблицу TEACHER с применением явного курсора LOOP-цикла.
+-- 11. Создайте анонимный блок, распечатывающий таблицу TEACHER с применением
+-- явного курсора LOOP-цикла.
 -- Считанные данные должны быть записаны в переменные, объявленные с применением опции %TYPE.
 
 DECLARE
