@@ -3,8 +3,7 @@
 #include "Windows.h"
 #include <objbase.h>
 #include <assert.h>
-//#include <iostream>
-//#include "SEQLOG.h"
+
 
 
 BOOL setKeyAndValue(const WCHAR* szKey,         // smw:const char* szKey
