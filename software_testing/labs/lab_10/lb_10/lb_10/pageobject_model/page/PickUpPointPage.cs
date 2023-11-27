@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,6 +36,7 @@ namespace lb_10.pageobject_model.page
         {
             try
             {
+                WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
                 _driver.FindElement(By.XPath("/html/body/div[4]/div/div/div/div"));
                 _driver.Quit();
                 return true;
