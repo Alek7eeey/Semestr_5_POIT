@@ -2,26 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80afe0d6-dbfe-4442-8701-f95b77bc27c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/Lab-3 Vector3_Raycast.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/TundraBuildState.state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/TundraBuildState.state.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/backend1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/backend1.traceevents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/fullprofile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/tundra.digestcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/Bee/tundra.log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/StateCache/SceneView/5c/5cd355113e4e70b266ed2c45fc5720fd.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/StateCache/SceneView/5c/5cd355113e4e70b266ed2c45fc5720fd.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Library/ilpp.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Logs/AssetImportWorker1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../computer_multimedia_systems/labs/lab_2/Lab_2/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../software_testing/labs/lab_6/lab6_collections/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../database/labs/lab_11/lab_11.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../database/labs/lab_11/lab_11.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021Java2s_2-8_JavaSpringProject.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/Debug/OS09_01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/Debug/OS09_01.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/Debug/OS09_01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/Debug/OS09_01.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/Debug/OS09_04.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/Debug/OS09_04.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/Debug/OS09_04.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/Debug/OS09_04.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01/Debug/Main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01/Debug/Main.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01/Debug/OS09_01.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01/Debug/OS09_01.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01/Debug/OS09_01.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01/Debug/OS09_01.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_01/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/Main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/Main.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/OS09_04.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/OS09_04.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/OS09_04.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/OS09_04.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/OS09_04.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/OS09_04.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../operation_systems/labs/lab_9/OS09/OS09_04/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/SP02_02.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/SP02_02.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/x64/Debug/SP02_02.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/x64/Debug/SP02_02.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/x64/Debug/SP02_02.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/x64/Debug/SP02_02.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/x64/Debug/SP02_02.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/x64/Debug/SP02_02.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/x64/Debug/SP02_02.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_02/SP02_02/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/SP02_04.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/SP02_04.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/SP02_04.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/SP02_04/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/x64/Debug/SP02_04.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/x64/Debug/SP02_04.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/x64/Debug/SP02_04.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_04/x64/Debug/SP02_04.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.Build.CppClean.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.Build.CppClean.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.pch" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.pch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/Lib-link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/Lib-link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/Lib-link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/Lib-link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/Lib.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/Lib.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/SP02_lib.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/SP02_lib.tlog/SP02_lib.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/pch.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/SP02_lib/x64/Debug/pch.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/x64/Debug/SP02_COM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/x64/Debug/SP02_COM.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/x64/Debug/SP02_lib.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/x64/Debug/SP02_lib.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/x64/Debug/SP02_lib.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/x64/Debug/SP02_lib.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/x64/Debug/SP02_lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../system_programing/labs/lab_4/COM/SP02_lib/x64/Debug/SP02_lib.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +74,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/studing/5_semestr/internet_programming_technology/labs/lab_2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/studing/5_semestr/internet_programming_technology/labs/lab_2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,6 +93,7 @@
       <updated>1695881188613</updated>
       <workItem from="1695881189935" duration="28000" />
       <workItem from="1698139540536" duration="144000" />
+      <workItem from="1701362376425" duration="279000" />
     </task>
     <servers />
   </component>
