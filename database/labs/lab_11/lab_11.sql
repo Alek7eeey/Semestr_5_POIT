@@ -139,7 +139,8 @@ end;
 -- заданной кодом в параметре. Разработайте анонимный блок и продемонстрируйте
 -- выполнение процедуры.
 
-create or replace function GET_NUM_TEACHERS(PCODE TEACHER.PULPIT%TYPE) return number
+create or replace function GET_NUM_TEACHERS(PCODE TEACHER.PULPIT%TYPE)
+    return number
   is
   num number;
 begin
@@ -194,17 +195,14 @@ end;
 -- Функция должна выводить количество преподавателей из таблицы TEACHER, работающих
 -- на факультете, заданным кодом в параметре. Разработайте анонимный блок
 -- и продемонстрируйте выполнение процедуры.
--- GET_NUM_SUBJECTS (PCODE SUBJECT.PULPIT%TYPE) RETURN NUMBER Функция должна
--- выводить количество дисциплин из таблицы SUBJECT, закрепленных за кафедрой,
--- заданной кодом кафедры параметре. Разработайте анонимный блок и
--- продемонстрируйте выполнение процедуры.
 
 create or replace function GET_NUM_TEACHERS(FCODE FACULTY.FACULTY%TYPE)
     return number
 is
   num number;
 begin
-  select count(*) into num from TEACHER where PULPIT in (select PULPIT from PULPIT where FACULTY = FCODE);
+  select count(*) into num from TEACHER where PULPIT in
+                    (select PULPIT from PULPIT where FACULTY = FCODE);
   return num;
 end;
 
@@ -218,6 +216,18 @@ end;
 -- GET_NUM_TEACHERS (FCODE FACULTY.FACULTY%TYPE) RETURN NUMBER GET_NUM_SUBJECTS
 -- (PCODE SUBJECT.PULPIT%TYPE) RETURN NUMBER
 
+ create or replace function GET_NUM_SUBJECTS(PCODE SUBJECT.PULPIT%TYPE) return number
+    is
+    num number;
+  begin
+    select count(*) into num from SUBJECT where PULPIT = PCODE;
+    return num;
+  end;
+end GET_NUM_SUBJECTS;
+    begin
+    dbms_output.put_line(GET_NUM_SUBJECTS('P001'));
+    end;
+
 create or replace package TEACHERS is
   procedure GET_TEACHERS(FCODE FACULTY.FACULTY%TYPE);
   procedure GET_SUBJECTS(PCODE SUBJECT.PULPIT%TYPE);
@@ -225,7 +235,8 @@ create or replace package TEACHERS is
   function GET_NUM_SUBJECTS(PCODE SUBJECT.PULPIT%TYPE) return number;
 end TEACHERS;
 
--- 7. Разработайте анонимный блок и продемонстрируйте выполнение процедур и функций пакета TEACHERS.--
+-- 7. Разработайте анонимный блок и продемонстрируйте
+-- выполнение процедур и функций пакета TEACHERS.--
 
 create or replace package body TEACHERS is
   procedure GET_TEACHERS(FCODE FACULTY.FACULTY%TYPE) is
