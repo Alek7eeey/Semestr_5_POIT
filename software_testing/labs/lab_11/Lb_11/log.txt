@@ -1,0 +1,166 @@
+03.12.2023 12:25:26 [INFO] WebDriver initialized.
+03.12.2023 12:25:28 [INFO] Main page opened.
+03.12.2023 12:32:31 [INFO] WebDriver initialized.
+03.12.2023 12:32:32 [INFO] PickUpPoint page opened.
+03.12.2023 12:32:32 [INFO] Searching for Минск, улица Бурдейного, 6к1
+03.12.2023 12:32:33 [INFO] Search completed.
+03.12.2023 12:32:34 [INFO] PickUpPoint not found.
+03.12.2023 12:32:46 [INFO] WebDriver initialized.
+03.12.2023 12:32:52 [INFO] PickUpPoint page opened.
+03.12.2023 12:32:54 [INFO] Searching for Минск, улица Бурдейного, 6к1
+03.12.2023 12:32:54 [INFO] Search completed.
+03.12.2023 12:33:09 [INFO] PickUpPoint not found.
+03.12.2023 12:33:34 [INFO] WebDriver initialized.
+03.12.2023 12:33:38 [INFO] PickUpPoint page opened.
+03.12.2023 12:33:39 [INFO] Searching for Минск
+03.12.2023 12:33:40 [INFO] Search completed.
+03.12.2023 12:34:00 [INFO] PickUpPoint not found.
+03.12.2023 12:34:09 [INFO] WebDriver initialized.
+03.12.2023 12:34:18 [INFO] PickUpPoint page opened.
+03.12.2023 12:34:26 [INFO] Searching for Минск
+03.12.2023 12:34:26 [INFO] Search completed.
+03.12.2023 12:34:28 [INFO] PickUpPoint not found.
+03.12.2023 12:38:15 [INFO] WebDriver initialized.
+03.12.2023 12:38:18 [INFO] PickUpPoint page opened.
+03.12.2023 12:38:18 [INFO] Searching for Минск
+03.12.2023 12:38:18 [INFO] Search completed.
+03.12.2023 12:38:18 [INFO] PickUpPoint found.
+03.12.2023 12:49:37 [INFO] WebDriver initialized.
+03.12.2023 12:49:57 [INFO] Main page opened.
+03.12.2023 12:50:00 [INFO] Searching for Коллекционные семена томата Кас 21
+03.12.2023 12:50:03 [INFO] Search completed.
+03.12.2023 12:50:54 [INFO] WebDriver initialized.
+03.12.2023 12:51:50 [INFO] WebDriver initialized.
+03.12.2023 12:51:56 [INFO] Main page opened.
+03.12.2023 12:51:58 [INFO] Searching for Коллекционные семена томата Кас 21
+03.12.2023 12:51:59 [INFO] Search completed.
+03.12.2023 12:52:01 [INFO] Product added to basket.
+03.12.2023 12:56:52 [INFO] WebDriver initialized.
+03.12.2023 12:57:17 [INFO] Main page opened.
+03.12.2023 12:57:18 [INFO] Searching for Коллекционные семена томата Кас 21
+03.12.2023 12:57:23 [INFO] Search completed.
+03.12.2023 12:57:24 [INFO] Product added to basket.
+03.12.2023 12:57:27 [INFO] Going to basket.
+03.12.2023 12:57:28 [INFO] Product is in basket.
+03.12.2023 13:04:41 [INFO] WebDriver initialized.
+03.12.2023 13:04:43 [INFO] Main page opened.
+03.12.2023 13:04:43 [INFO] Searching for Беспроводные наушники PRO с микрофоном для и Андроид, tws, bluetooth.
+03.12.2023 13:04:48 [INFO] Search completed.
+03.12.2023 13:04:48 [INFO] Product is found.
+03.12.2023 13:13:52 [INFO] WebDriver initialized.
+03.12.2023 13:14:17 [INFO] Main page opened.
+03.12.2023 13:14:18 [INFO] Searching for Беспроводные наушники PRO с микрофоном для и Андроид, tws, bluetooth.
+03.12.2023 13:14:26 [INFO] Search completed.
+03.12.2023 13:14:31 [INFO] Sales is enable.
+03.12.2023 13:14:37 [INFO] Product is found.
+03.12.2023 13:21:25 [INFO] WebDriver initialized.
+03.12.2023 13:21:40 [INFO] Main page opened.
+03.12.2023 13:21:40 [INFO] Searching for Беспроводные наушники PRO с микрофоном для и Андроид, tws, bluetooth
+03.12.2023 13:21:53 [INFO] Search completed.
+03.12.2023 13:22:23 [INFO] Go to product.
+03.12.2023 13:22:25 [INFO] Description is found
+03.12.2023 13:33:54 [INFO] WebDriver initialized.
+03.12.2023 13:34:19 [INFO] Main page opened.
+03.12.2023 13:34:20 [INFO] Catalog clicked.
+03.12.2023 13:34:20 [INFO] Hovered over the section.
+03.12.2023 13:34:35 [INFO] Section selected.
+03.12.2023 13:34:40 [INFO] Product is not found.
+03.12.2023 13:36:07 [INFO] WebDriver initialized.
+03.12.2023 13:36:09 [INFO] Main page opened.
+03.12.2023 13:36:10 [INFO] Catalog clicked.
+03.12.2023 13:36:31 [INFO] WebDriver initialized.
+03.12.2023 13:36:34 [INFO] Main page opened.
+03.12.2023 13:36:37 [INFO] Catalog clicked.
+03.12.2023 13:36:39 [INFO] Hovered over the section.
+03.12.2023 13:36:41 [INFO] Section selected.
+03.12.2023 13:36:41 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 13:36:44 [INFO] Product is found.
+03.12.2023 13:43:39 [INFO] WebDriver initialized.
+03.12.2023 13:44:00 [INFO] Main page opened.
+03.12.2023 13:44:01 [INFO] Searching for Беспроводные наушники
+03.12.2023 13:44:10 [INFO] Search completed.
+03.12.2023 13:44:13 [INFO] Delivery up to 3 days is included.
+03.12.2023 13:44:16 [INFO] Product is found.
+03.12.2023 13:47:58 [INFO] WebDriver initialized.
+03.12.2023 13:48:45 [INFO] WebDriver initialized.
+03.12.2023 13:48:47 [INFO] Main page opened.
+03.12.2023 13:48:51 [INFO] IT job clicked.
+03.12.2023 13:48:51 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 13:49:28 [INFO] WebDriver initialized.
+03.12.2023 13:49:32 [INFO] Main page opened.
+03.12.2023 13:49:35 [INFO] IT job clicked.
+03.12.2023 13:49:35 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 13:55:30 [INFO] WebDriver initialized.
+03.12.2023 13:55:32 [INFO] Main page opened.
+03.12.2023 13:55:35 [INFO] IT job clicked.
+03.12.2023 13:55:35 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 13:55:47 [INFO] Input city = Минск
+03.12.2023 13:56:19 [INFO] WebDriver initialized.
+03.12.2023 13:56:23 [INFO] Main page opened.
+03.12.2023 13:56:25 [INFO] IT job clicked.
+03.12.2023 13:56:25 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 13:56:38 [INFO] Input city = Минск
+03.12.2023 13:56:40 [INFO] Cllick save city for job.
+03.12.2023 14:00:30 [INFO] WebDriver initialized.
+03.12.2023 14:00:33 [INFO] Main page opened.
+03.12.2023 14:00:50 [INFO] WebDriver initialized.
+03.12.2023 14:00:55 [INFO] Main page opened.
+03.12.2023 14:01:56 [INFO] WebDriver initialized.
+03.12.2023 14:02:10 [INFO] Main page opened.
+03.12.2023 14:02:15 [INFO] IT job clicked.
+03.12.2023 14:02:15 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 14:02:23 [INFO] Input city = Минск
+03.12.2023 14:02:25 [INFO] Cllick save city for job.
+03.12.2023 14:02:49 [INFO] WebDriver initialized.
+03.12.2023 14:03:04 [INFO] Main page opened.
+03.12.2023 14:03:04 [INFO] IT job clicked.
+03.12.2023 14:03:04 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 14:03:16 [INFO] Input city = Минск
+03.12.2023 14:03:16 [INFO] Cllick save city for job.
+03.12.2023 14:03:17 [INFO] Go to CSharp region.
+03.12.2023 14:03:17 [INFO] Job is found.
+03.12.2023 14:06:36 [INFO] WebDriver initialized.
+03.12.2023 14:06:38 [INFO] Main page opened.
+03.12.2023 14:06:48 [INFO] WebDriver initialized.
+03.12.2023 14:06:53 [INFO] Main page opened.
+03.12.2023 14:07:06 [INFO] WebDriver initialized.
+03.12.2023 14:07:16 [INFO] Main page opened.
+03.12.2023 14:07:20 [INFO] IT job clicked.
+03.12.2023 14:07:20 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 14:07:30 [INFO] Input city = Минск
+03.12.2023 14:07:40 [INFO] Cllick save city for job.
+03.12.2023 14:07:44 [INFO] Go to CSharp region.
+03.12.2023 14:09:20 [INFO] WebDriver initialized.
+03.12.2023 14:09:41 [INFO] Main page opened.
+03.12.2023 14:09:45 [INFO] IT job clicked.
+03.12.2023 14:09:45 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 14:09:56 [INFO] Input city = Минск
+03.12.2023 14:09:59 [INFO] Cllick save city for job.
+03.12.2023 14:10:01 [INFO] Go to CSharp region.
+03.12.2023 14:11:41 [INFO] WebDriver initialized.
+03.12.2023 14:11:51 [INFO] Main page opened.
+03.12.2023 14:11:53 [INFO] IT job clicked.
+03.12.2023 14:11:53 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 14:12:05 [INFO] Input city = Минск
+03.12.2023 14:12:06 [INFO] Cllick save city for job.
+03.12.2023 14:12:09 [INFO] Go to CSharp region.
+03.12.2023 14:13:24 [INFO] WebDriver initialized.
+03.12.2023 14:13:34 [INFO] Main page opened.
+03.12.2023 14:13:36 [INFO] IT job clicked.
+03.12.2023 14:13:36 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 14:13:50 [INFO] Input city = Минск
+03.12.2023 14:13:52 [INFO] Cllick save city for job.
+03.12.2023 14:13:54 [INFO] Go to CSharp region.
+03.12.2023 14:13:56 [INFO] Go to vocation.
+03.12.2023 14:14:01 [INFO] Job description is not found.
+03.12.2023 14:15:21 [INFO] WebDriver initialized.
+03.12.2023 14:15:24 [INFO] Main page opened.
+03.12.2023 14:15:40 [INFO] WebDriver initialized.
+03.12.2023 14:15:43 [INFO] Main page opened.
+03.12.2023 14:15:48 [INFO] IT job clicked.
+03.12.2023 14:15:48 [INFO] Clicked on the section and switched to the new page.
+03.12.2023 14:16:06 [INFO] Input city = Минск
+03.12.2023 14:16:22 [INFO] Cllick save city for job.
+03.12.2023 14:16:26 [INFO] Go to CSharp region.
+03.12.2023 14:16:41 [INFO] Go to vocation.
+03.12.2023 14:16:44 [INFO] Job description is found.
