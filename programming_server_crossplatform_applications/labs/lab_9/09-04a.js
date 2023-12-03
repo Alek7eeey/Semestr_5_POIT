@@ -8,6 +8,7 @@ ws.on('open',()=>{
     ws.on('message', data=>{
         console.log('on message: ', JSON.parse(data));
     });
+
     let k=0;
     setInterval(() => {
         ws.send(JSON.stringify({client: x, timestamp: new Date().toISOString()}));
