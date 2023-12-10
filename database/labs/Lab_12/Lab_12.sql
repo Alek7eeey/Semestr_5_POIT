@@ -1,5 +1,5 @@
--- 1.	Создайте таблицу, имеющую несколько атрибутов, один из которых первичный ключ.
-
+-- 1.	Создайте таблицу, имеющую несколько атрибутов,
+-- один из которых первичный ключ.
 create table STUDENT
 (
   STUDENT      varchar(20) primary key,
@@ -60,7 +60,6 @@ set STUDENT_NAME = STUDENT_NAME
 where STUDENT.PULPIT = 'P3';
 
 -- 6.	Примените предикаты INSERTING, UPDATING и DELETING.
-
 create or replace trigger TRIGGER_ROW_BEFORE
   before insert or delete or update
   on STUDENT
@@ -160,7 +159,7 @@ truncate table AUDIT_;
 -- ли триггер это событие. Объясните результат.
 
 insert into STUDENT
-values ('st1', 'Новый студент', 'P1');
+values ('st111', 'Новый студент', 'P3');
 
 select *
 from AUDIT_;
@@ -180,6 +179,7 @@ begin
   raise_application_error(-20001, 'Нельзя удалять таблицу STUDENT');
 end;
 
+drop trigger BEFORE_DROP;
 -- 13.	Удалите (drop) таблицу AUDIT. Просмотрите состояние триггеров с помощью SQL-DEVELOPER.
 -- Объясните результат. Измените триггеры.
 
@@ -194,6 +194,9 @@ as
 select *
 from STUDENT;
 
+select *
+from STUDENT_VIEW;
+
 create or replace trigger VIEW_TRIGGER
   instead of insert on STUDENT_VIEW
 begin
@@ -207,7 +210,7 @@ delete from STUDENT where STUDENT = 'st11';
 truncate table AUDIT_;
 
 insert into STUDENT_VIEW
-values ('st11', 'Песецкий Илья', 'P2');
+values ('st11123123', 'Песецкий Никита', 'P2');
 
 select * from AUDIT_;
 select * from STUDENT;
