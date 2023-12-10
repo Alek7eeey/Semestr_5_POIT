@@ -1,8 +1,9 @@
-﻿  SP02_lib.cpp
-C:\instit\kurs3_1\SP\lab2\SP02_lib\SP02_lib\SP02_lib.cpp(62): warning C4715: OS12::Adder::Sub: значение возвращается не при всех путях выполнения
-C:\instit\kurs3_1\SP\lab2\SP02_lib\SP02_lib\SP02_lib.cpp(46): warning C4715: OS12::Adder::Add: значение возвращается не при всех путях выполнения
-C:\instit\kurs3_1\SP\lab2\SP02_lib\SP02_lib\SP02_lib.cpp(78): warning C4715: OS12::Multiplier::Mul: значение возвращается не при всех путях выполнения
-C:\instit\kurs3_1\SP\lab2\SP02_lib\SP02_lib\SP02_lib.cpp(97): warning C4715: OS12::Multiplier::Div: значение возвращается не при всех путях выполнения
-  SP02_lib.vcxproj -> C:\instit\kurs3_1\SP\lab2\SP02_lib\x64\Debug\SP02_lib.lib
+﻿  pch.cpp
+  SP02_lib.cpp
+D:\studing\5_semestr\system_programing\labs\lab_4\COM\SP02_lib\SP02_lib\SP02_lib.cpp(97): warning C4715: OS12::Multiplier::Div: значение возвращается не при всех путях выполнения
+D:\studing\5_semestr\system_programing\labs\lab_4\COM\SP02_lib\SP02_lib\SP02_lib.cpp(78): warning C4715: OS12::Multiplier::Mul: значение возвращается не при всех путях выполнения
+D:\studing\5_semestr\system_programing\labs\lab_4\COM\SP02_lib\SP02_lib\SP02_lib.cpp(46): warning C4715: OS12::Adder::Add: значение возвращается не при всех путях выполнения
+D:\studing\5_semestr\system_programing\labs\lab_4\COM\SP02_lib\SP02_lib\SP02_lib.cpp(62): warning C4715: OS12::Adder::Sub: значение возвращается не при всех путях выполнения
+  SP02_lib.vcxproj -> D:\studing\5_semestr\system_programing\labs\lab_4\COM\SP02_lib\x64\Debug\SP02_lib.lib
   ..\..\SP02_COM\x64\Debug\SP02_COM.dll
-  ╤ъюяшЁютрэю Їрщыют: 1.
+  Скопировано файлов: 1.
