@@ -1,17 +1,17 @@
 //TCP-client
 let net=require('net');
 
-let host='127.0.0.1';
-let port=4000;
+let host= '127.0.0.1';
+let port= 4000;
 
-let client=new net.Socket();
+let client= new net.Socket();
 
 client.connect(port, host,()=>{
-    console.log('client connected: '+client.remoteAddress+' '+client.remotePort);
+    console.log('client connected: ' + client.remoteAddress+' ' + client.remotePort);
     client.write('hello');
 });
 client.on('data',(data)=>{
-    console.log('client data: '+data.toString());
+    console.log('client data: ' + data.toString());
     client.destroy();
 });
 client.on('close',()=>{
