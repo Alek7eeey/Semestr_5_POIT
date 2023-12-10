@@ -8,6 +8,7 @@ namespace Lb_11.Pages
     {
         public BasketPage(IWebDriver driver) : base(driver)
         {
+
         }
 
         public bool IsProductInBasket()
