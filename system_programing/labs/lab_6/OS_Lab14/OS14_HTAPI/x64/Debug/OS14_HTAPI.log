@@ -1,7 +1,7 @@
 ﻿  pch.cpp
   Auth.cpp
-D:\studing\5_semestr\system_programing\labs\lab_6\OS_Lab14\OS14_HTAPI\Auth.cpp(24,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\studing\5_semestr\system_programing\labs\lab_6\OS_Lab14\OS14_HTAPI\Auth.cpp(72,22): warning C4018: <: несоответствие типов со знаком и без знака
+D:\studing\5_semestr\system_programing\labs\lab_6\OS_Lab14\OS14_HTAPI\Auth.cpp(21,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\studing\5_semestr\system_programing\labs\lab_6\OS_Lab14\OS14_HTAPI\Auth.cpp(69,22): warning C4018: <: несоответствие типов со знаком и без знака
   Element.cpp
   HT.cpp
   Создание кода...

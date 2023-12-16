@@ -36,8 +36,8 @@ const defineTable = (str) => {
 http.createServer((req,resp)=>{
     if (req.method=='GET') {
         resp.writeHead(400, { "Content-Type": "application/json" });
-        let regexp1=new RegExp('/api/faculty/[a-zA-Zа-яА-Я0-9]{0,15}/pulpits');
-        let regexp2=new RegExp('/api/auditoriumstypes/[a-zA-Zа-яА-Я0-9\s]{0,15}/auditoriums')
+        let regexp1= new RegExp('/api/faculty/[a-zA-Zа-яА-Я0-9]{0,15}/pulpits');
+        let regexp2= new RegExp('/api/auditoriumstypes/[a-zA-Zа-яА-Я0-9\s]{0,15}/auditoriums')
         if (regexp1.test(decodeURI(url.parse(req.url).pathname))) {
             let code = decodeURI(url.parse(req.url).pathname.split('/')[3]);
             pool
@@ -52,7 +52,7 @@ http.createServer((req,resp)=>{
                     resp.end(JSON.stringify(result.recordset));
                 })
                 .catch(e => {
-                    resp.end(JSON.stringify({ id: 400, name: `Error in GET request` }));
+                    resp.end(JSON.stringify({ id: 400, name: `Error during get-request` }));
                 })
                 .finally(() => {
                     pool.close();
@@ -71,7 +71,7 @@ http.createServer((req,resp)=>{
                     resp.end(JSON.stringify(result.recordset));
                 })
                 .catch(e => {
-                    resp.end(JSON.stringify({ id: 400, name: `Error in GET request` }));
+                    resp.end(JSON.stringify({ id: 400, name: `Error during get-request` }));
                 })
                 .finally(() => {
                     pool.close();
@@ -103,7 +103,7 @@ http.createServer((req,resp)=>{
                 .catch((err) => {
                     console.log("Error: ", err.stack);
                     resp.end(
-                        JSON.stringify({ id: 400, name: `Error: GET data from ${table}` })
+                        JSON.stringify({ id: 400, name: `Error during get data from ${table}` })
                     );
                 })
                 .finally(() => {
@@ -152,7 +152,7 @@ http.createServer((req,resp)=>{
                         resp.end(
                             JSON.stringify({
                                 id: 400,
-                                name: `Error: INSERT data into ${table}`,
+                                name: `Error during insert data into ${table}`,
                             })
                         );
                     })
@@ -204,7 +204,7 @@ http.createServer((req,resp)=>{
                         resp.end(
                             JSON.stringify({
                                 id: 400,
-                                name: `Error: UPDATE data from ${table}`,
+                                name: `Error during update data from ${table}`,
                             })
                         );
                     })
@@ -234,7 +234,7 @@ http.createServer((req,resp)=>{
                 .catch((err) => {
                     console.log("Error: ", err.stack);
                     resp.end(
-                        JSON.stringify({ id: 400, name: `Error: DELETE data from ${table}` })
+                        JSON.stringify({ id: 400, name: `Error delete during data from ${table}` })
                     );
                 })
                 .finally(() => {

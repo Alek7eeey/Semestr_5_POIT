@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="postcard" size="5.000000 6.293019" />
+    <ImageTarget name="Record_book" size="5.000000 3.672708" />
+    <ImageTarget name="Passport" size="5.000000 6.558677" />
+  </Tracking>
+</QCARConfig>

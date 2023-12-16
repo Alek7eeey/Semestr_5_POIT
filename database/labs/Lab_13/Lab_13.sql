@@ -128,8 +128,10 @@ CREATE TABLESPACE t5 DATAFILE 't5.DAT'
 
 --9. Для одной из таблиц продемонстрируйте действие оператора ALTER TABLE EXCHANGE.
     create table T_list1(obj char(3));
+
     alter table T_list exchange partition  p3
         with table T_list1 without validation;
+
     select * from T_list partition (p3);
     select * from T_list1;
 
