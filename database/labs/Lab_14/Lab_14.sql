@@ -73,7 +73,7 @@ end job_procedure;
 
 declare job_number user_jobs.job%type;
 begin
-  dbms_job.submit(job_number, 'BEGIN KAD_SYS.job_procedure(); END;', sysdate, 'sysdate + 7');
+  dbms_job.submit(job_number, 'BEGIN job_procedure(); END;', sysdate, 'sysdate + 7');
   commit;
   dbms_output.put_line(job_number);
 end;
