@@ -1,0 +1,14 @@
+OS15_CREATE.exe 2000 15 200 200 HT os_15.ht
+
+Regsvr32 OS14_HTCOM.dll - зарегистрировать  |  Regsvr32 /u OS13_HTCOM.dll - удалить
+
+OS13_HTCOM.dll
+
+// Можно ли выгружать DLL?
+DllCanUnloadNow()
+// Получить фабрику класса
+DllGetClassObject
+// Регистрация сервера
+DllRegisterServer()
+// Удаление сервера из Реестра
+DllUnregisterServer()
